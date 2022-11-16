@@ -1,0 +1,39 @@
+
+<form [formGroup]="addForm">
+  
+  Name: <input formControlName="name"><br><br>
+
+  Email: <input formControlName="email"><br><br>
+
+  Subject: <input formControlName="subject"><br><br>                    
+
+  <button type="submit" (click)="add()">Save</button>
+  <button type="submit" (click)="update()">Update</button>
+
+</form><br><br>
+
+
+<div>
+  <table border="1px">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Subject</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of students">
+        <td class="hidden">{{s.id}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.email}}</td>
+        <td>{{s.subject}}</td>
+        <td>
+          <button (click)="editStu(s)">Edit</button>
+          <button (click)="deleteStu(s)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

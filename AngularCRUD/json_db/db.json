@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Mahbub",
+      "email": "m@gmail.com",
+      "subject": "GAVE"
+    },
+    {
+      "id": 3,
+      "name": "fhyh",
+      "email": "fgyjuty",
+      "subject": "rtyfejt"
+    },
+    {
+      "id": 4,
+      "name": "fgyjhty",
+      "email": "fgjkyuk",
+      "subject": "JEE"
+    },
+    {
+      "id": 5,
+      "name": "Rakib",
+      "email": "mirakib33@gmail.com",
+      "subject": "PHP"
+    }
+  ]
+}
